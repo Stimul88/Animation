@@ -1,3 +1,1 @@
-#CI Test
-
-npm i
+https://stimul88.github.io/Animation/
