@@ -1,0 +1,60 @@
+body {
+  color: #999;
+}
+
+.collapsible {
+  position: relative;
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-collapsible {
+  width: 200px;
+  height: 50px;
+  background-color: deepskyblue;
+  color: white;
+  border:  5px solid white;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.btn-collapsible:hover {
+  background-color: dodgerblue;
+}
+
+.btn-collapsible:active {
+  border:  5px solid deepskyblue;
+}
+
+.text-container {
+  margin-top: 20px;
+  width: 500px;
+  border-radius: 10px;
+  overflow: hidden;
+  font-size: 20px;
+  color: black;
+}
+
+.text {
+  padding: 20px;
+  display: flex;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.show {
+  height: 140px;
+  transition:  0.25s, height 0.5s steps(15, end);
+}
+
+.collapsed {
+  height: 0;
+  transition:  0.25s, height 0.5s steps(15, end);
+}
+
+.hidden {
+  display: none;
+}
+
